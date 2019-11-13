@@ -1,10 +1,15 @@
 # FlowScope
 Implementation code of the algorithm described in FlowScope: Spotting Money Laundering Based on Graphs. and thanks for the contribution of the coworkers , i.e. , Shenghua Liu and Zifeng Li.
 
-Code in  FlowScope-AMC is designed for detecting money laundering with one middle layer M
-Code in  FlowScope-AM1M2C is designed for detecting money laundering with one two layers M1 and M2.  
+Code in  FlowScope-AMC:
+      designed for detecting money laundering with one middle layer M
+Code in  FlowScope-AM1M2C:
+      designed for detecting money laundering with one two layers M1 and M2.  
 
-for usage, python2  FS.py  input_dir output_dir  block_num 
+for usage:
+       python2  FS.py  input_dir output_dir  block_num 
+       
+       
 parameter specifications：
   input_dir:  the path to input data; 
   output_dir: the path to output result;
