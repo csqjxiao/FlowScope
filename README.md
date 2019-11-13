@@ -8,7 +8,7 @@ Code in  FlowScope-AMC:
             
 Code in  FlowScope-AM1M2C:
 
-            designed for detecting money laundering with one two layers M1 and M2.  
+            designed for detecting money laundering with two middle layers M1 and M2.  
 
 for usage:
 
@@ -16,9 +16,10 @@ for usage:
        
        
 parameter specifications：
-  input_dir:  the path to input data; 
-  output_dir: the path to output result;
-  block_num:  numbers of suspicious transactions you want to detect;
+
+              input_dir:  the path to input data; 
+              output_dir: the path to output result;
+              block_num:  numbers of suspicious transactions you want to detect;
   
   input data: decribe the transaction between two  adjacent layer, which should be named as fs1.csv, fs2.csv ... fsn.csv . 
               
