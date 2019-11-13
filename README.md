@@ -17,22 +17,25 @@ for usage:
        
 parameter specifications：
 
-              input_dir:  the path to input data; 
-              output_dir: the path to output result;
-              block_num:  numbers of suspicious transactions you want to detect;
+            input_dir:  the path to input data; 
+            output_dir: the path to output result;
+            block_num:  numbers of suspicious transactions you want to detect;
   
   input data: decribe the transaction between two  adjacent layer, which should be named as fs1.csv, fs2.csv ... fsn.csv . 
               
-              fs1.csv describes the transactions be source layer and the first middle layer.  
-              fsn.csv describes the transactions be source layer and the first middle layer.  
+            fs1.csv: describes the transactions between source layer and the first middle layer. 
+            ...
+            fsi.csv: describes the transactions between current i-th layer and the next layer. 
+            ...
+            fsn.csv: describes the transactions between last middle layer and the destination layer.  
                
   ouput data: the most suspicous accouts in each layer. 
 
-              rown.csv: the source  account of the n-th suspicious transactions；
-              coln.csv: the destination  account of the n-th suspicious transactions；
-              midk_n. csv: the middle account in k-th middle layer of the n-th suspicious transactions；
-             
-  
+            rown.csv: the source  account of the n-th suspicious transactions；
+            coln.csv: the destination  account of the n-th suspicious transactions；
+            midk_n. csv: the middle account in k-th middle layer of the n-th suspicious transactions；
+
+
 
   
 
