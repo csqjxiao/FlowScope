@@ -29,7 +29,7 @@ parameter specifications：
             ...
             fsn.csv: describes the transactions between last middle layer and the destination layer.  
                
-  ouput data: the most suspicous accouts in each layer. 
+  ouput result: the most suspicous accouts in each layer. 
 
             rown.csv: the source  account of the n-th suspicious transactions；
             coln.csv: the destination  account of the n-th suspicious transactions；
