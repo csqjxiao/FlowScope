@@ -70,28 +70,13 @@ parameter specifications：
 
 ```
 @inproceedings{li2020flowscope,
-  author    = {Xiangfeng Li,  Shenghua Liu,   
-        Zifeng Li,   Xiaotian Han, Chuan Shi ,   
-        Bryan Hooi,  He Huang,  Xueqi Cheng},
-  title     = {FlowScope: Spotting Money Laundering Based on  Graphs },
-  booktitle = {Proceedings of the 2017 {ACM} on Conference on Information and Knowledge
-               Management, {CIKM} 2017, Singapore, November 06 - 10, 2017},
-  pages     = {1539--1548},
-  year      = {2020},
-  crossref  = {DBLP:conf/cikm/2017},
-  url       = {http://doi.acm.org/10.1145/3132847.3133018},
-  doi       = {10.1145/3132847.3133018},
-  timestamp = {Tue, 07 Nov 2017 16:24:37 +0100},
-  biburl    = {http://dblp.org/rec/bib/conf/cikm/LiuHF17},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+  title        = {FlowScope: Spotting Money Laundering Based on  Graphs },
+  author       = {Xiangfeng Li, Shenghua Liu, Zifeng Li, Xiaotian Han, Chuan Shi , Bryan Hooi, He Huang, Xueqi Cheng},
+  booktitle    = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year         = {2020},
+  organization ={AAAI}
 }
-@article{liu2018contrast,
-  title={A Contrast Metric for Fraud Detection in Rich Graphs},
-  author={Liu, Shenghua and Hooi, Bryan and Faloutsos, Christos},
-  journal={IEEE Transactions on Knowledge and Data Engineering},
-  year={2018},
-  publisher={IEEE}
-}
+
 ```
 
 
