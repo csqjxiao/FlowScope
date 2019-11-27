@@ -74,7 +74,7 @@ parameter specifications：
   author       = {Xiangfeng Li, Shenghua Liu, Zifeng Li, Xiaotian Han, Chuan Shi , Bryan Hooi, He Huang, Xueqi Cheng},
   booktitle    = {Proceedings of the AAAI Conference on Artificial Intelligence},
   year         = {2020},
-  organization ={AAAI}
+  organization = {AAAI}
 }
 
 ```
