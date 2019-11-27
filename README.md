@@ -60,11 +60,8 @@ parameter specifications：
 ```
 
 
-
 ## The results  
-<img src="https://github.com/aplaceof/FlowScope/blob/master/images/results2.jpg"  height="800"  align=center>
-
-
+<img src="https://github.com/aplaceof/FlowScope/blob/master/images/results2.jpg"   height="800"  align=center>
 
 
 ## Cite:
