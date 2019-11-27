@@ -6,7 +6,7 @@ Implementation code of the algorithm described in FlowScope: Spotting Money Laun
 
 **FlowScope**: Spotting Money Laundering Based on Graphs
 
-**FlowScope** is developped for ML detection based on multipartite graph,  which models the high-volume *flows* of funds passing through chains of bank accounts , and  detects the complete flow of money from source to destination.
+**FlowScope** is developped for ML detection based on multipartite graph,  which models the high-volume *flows* of funds passing through chains of bank accounts, and  detects the complete flow of money from source to destination.
 
 ## Abstract 
 
@@ -31,8 +31,7 @@ for usage:
 ```
         python2  FS.py  input_dir output_dir  block_num 
 ```
-
-​       
+       
 parameter specifications：
 
 ```
@@ -64,14 +63,6 @@ parameter specifications：
 
 ## The results  
 
-![image-20191127223445337](/Users/alf/Nutstore Files/alf-nut/typora/Untitled.assets/image-20191127223445337.png)
-
-
-
-![image-20191127223712197](/Users/alf/Nutstore Files/alf-nut/typora/Untitled.assets/image-20191127223712197.png)
-
-![image-20191127223734269](/Users/alf/Nutstore Files/alf-nut/typora/Untitled.assets/image-20191127223734269.png)
-
 
 
 
@@ -79,15 +70,15 @@ parameter specifications：
 ## Cite:
 
 ```
-@inproceedings{liu2017holoscope,
-  author    = {Shenghua Liu and
-               Bryan Hooi and
-               Christos Faloutsos},
-  title     = {HoloScope: Topology-and-Spike Aware Fraud Detection},
+@inproceedings{li2020flowscope,
+  author    = {Xiangfeng Li,  Shenghua Liu,   
+        Zifeng Li,   Xiaotian Han, Chuan Shi ,   
+        Bryan Hooi,  He Huang,  Xueqi Cheng},
+  title     = {FlowScope: Spotting Money Laundering Based on  Graphs },
   booktitle = {Proceedings of the 2017 {ACM} on Conference on Information and Knowledge
                Management, {CIKM} 2017, Singapore, November 06 - 10, 2017},
   pages     = {1539--1548},
-  year      = {2017},
+  year      = {2020},
   crossref  = {DBLP:conf/cikm/2017},
   url       = {http://doi.acm.org/10.1145/3132847.3133018},
   doi       = {10.1145/3132847.3133018},
