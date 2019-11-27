@@ -3,6 +3,7 @@
 # FlowScope
 
 Implementation code of the algorithm described in FlowScope: Spotting Money Laundering Based on Graphs. and thanks for the contribution of the coworkers , i.e. , Shenghua Liu and Zifeng Li.
+
 **FlowScope**: Spotting Money Laundering Based on Graphs
 
 **FlowScope** is developped for ML detection based on multipartite graph,  which models the high-volume *flows* of funds passing through chains of bank accounts , and  detects the complete flow of money from source to destination.
